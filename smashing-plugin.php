@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Smashing Plugin
 	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.2
+	Version: 1.0.3
 	Author: Matthew Ray
 	Author URI: http://www.matthewray.com
 */
@@ -11,8 +11,8 @@ if( ! class_exists( 'Smashing_Updater' ) ){
 }
 
 $updater = new Smashing_Updater( __FILE__ );
-$updater->set_username( 'rayman813' );
-$updater->set_repository( 'smashing-updater-plugin' );
+$updater->set_username( 'bhaskar-pandit' );
+$updater->set_repository( 'test-plugin' );
 /*
 	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
 */
